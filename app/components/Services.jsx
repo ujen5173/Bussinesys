@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <>
       <section className="relative flex items-center justify-center px-4 py-16 md:py-24">
-        <div className="max-w-[1200px] w-full flex lg:flex-row mx-auto flex-col gap-12">
+        <div className="container w-full flex lg:flex-row mx-auto flex-col gap-12">
           <div className="w-full lg:w-1/2">
             <h1 className="text-4xl lg:text-5xl leading-tight font-semibold mb-10 text-gray-800">
               What we can do for your{" "}
@@ -27,7 +27,7 @@ const Services = () => {
             {services.map((service) => (
               <div
                 key={service.id}
-                className="bg-white w-full sm:w-[calc(100%/2-8px)] shadow-xl border border-gray-100 rounded-xl p-6 flex flex-col justify-center"
+                className="bg-white w-full sm:w-[calc(100%/2-1rem)] shadow-xl border border-gray-100 rounded-xl p-6 flex flex-col justify-center"
               >
                 <div className="w-12 h-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center">
                   <i className={`${service.icon} text-2xl`} />
@@ -44,7 +44,7 @@ const Services = () => {
         </div>
       </section>
       <section className="px-4 py-16 md:py-24">
-        <div className="max-w-[1200px] w-full flex lg:flex-row mx-auto flex-col gap-12">
+        <div className="container w-full flex lg:flex-row mx-auto flex-col gap-12">
           <div className="w-full md:w-9/12 lg:w-1/2 mx-auto mb-8">
             <Image
               src={"/graph.png"}
