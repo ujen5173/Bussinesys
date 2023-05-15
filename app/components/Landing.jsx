@@ -26,7 +26,7 @@ const Landing = () => {
           😊
         </div>
       </>
-      <div className="flex items-center justify-center container mx-auto">
+      <div className="flex items-center justify-center container mx-auto py-20">
         <div className="text-center flex flex-col justify-center items-center">
           <h1 className="relative z-20 text-5xl lg:text-6xl w-11/12 lg:w-9/12 xl:w-7/12 mb-10 font-bold text-gray-800">
             Grow your <span className="text-blue-600">Business</span> by our

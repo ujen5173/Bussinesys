@@ -1,10 +1,8 @@
-export const items = ["Home", "Bussines", "Office", "Stats", "Contacts"].map(
-  (e) => ({
-    id: Math.random() * 1000 + 1,
-    name: e,
-    link: `/${e.toLowerCase()}`,
-  })
-);
+export const items = ["Home", "Bussines", "Office", "Contacts"].map((e) => ({
+  id: Math.random() * 1000 + 1,
+  name: e,
+  link: `/${e.toLowerCase()}`,
+}));
 
 export const services = [
   {
