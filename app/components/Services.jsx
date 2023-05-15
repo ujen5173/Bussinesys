@@ -6,8 +6,8 @@ const Services = () => {
   return (
     <>
       <section className="relative flex items-center justify-center px-4 py-16 md:py-24">
-        <div className="container w-full flex lg:flex-row mx-auto flex-col gap-12">
-          <div className="w-full lg:w-1/2">
+        <div className="container w-full flex xl:flex-row mx-auto flex-col gap-12">
+          <div className="w-full xl:w-1/2">
             <h1 className="text-4xl lg:text-5xl leading-tight font-semibold md-5 md:mb-10 text-gray-800">
               What we can do for your{" "}
               <span className="text-blue-600">business to grow</span> and
