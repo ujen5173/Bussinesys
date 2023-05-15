@@ -8,12 +8,12 @@ const Services = () => {
       <section className="relative flex items-center justify-center px-4 py-16 md:py-24">
         <div className="container w-full flex lg:flex-row mx-auto flex-col gap-12">
           <div className="w-full lg:w-1/2">
-            <h1 className="text-4xl lg:text-5xl leading-tight font-semibold mb-10 text-gray-800">
+            <h1 className="text-4xl lg:text-5xl leading-tight font-semibold md-5 md:mb-10 text-gray-800">
               What we can do for your{" "}
               <span className="text-blue-600">business to grow</span> and
               Develop better
             </h1>
-            <p className="text-lg lg:text-xl font-medium mb-5 text-gray-500">
+            <p className="text-base md:text-lg lg:text-xl font-medium mb-5 text-gray-500">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Accusantium explicabo velit harum fugiat nam quas eius ut
               consequatur eveniet aliquam!
@@ -44,7 +44,7 @@ const Services = () => {
         </div>
       </section>
       <section className="px-4 py-16 md:py-24">
-        <div className="container w-full flex lg:flex-row mx-auto flex-col gap-12">
+        <div className="container w-full flex lg:flex-row mx-auto flex-col gap-6 lg:gap-12">
           <div className="w-full md:w-9/12 lg:w-1/2 mx-auto mb-8">
             <Image
               src={"/graph.png"}

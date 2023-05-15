@@ -10,19 +10,19 @@ const Landing = () => {
         <h1 className="absolute bottom-[10%] text-9xl font-black text-gray-900 opacity-5 select-none -left-[19rem]">
           BUSINESS
         </h1>
-        <div className="absolute top-[15%] hidden md:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none left-[12%]">
+        <div className="absolute top-[15%] hidden lg:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none left-[12%]">
           😎
         </div>
-        <div className="absolute top-[22%] hidden md:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none right-[10%]">
+        <div className="absolute top-[22%] hidden lg:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none right-[10%]">
           🤩
         </div>
-        <div className="absolute bottom-[24%] hidden md:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none left-[28%]">
+        <div className="absolute bottom-[24%] hidden lg:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none left-[28%]">
           🤑
         </div>
-        <div className="absolute bottom-[29%] hidden md:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none right-[28%]">
+        <div className="absolute bottom-[29%] hidden lg:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none right-[28%]">
           😎
         </div>
-        <div className="absolute top-[45%] hidden md:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none left-[15%]">
+        <div className="absolute top-[45%] hidden lg:flex text-4xl rounded-full w-16 h-16 items-center justify-center shadow-xl border border-gray-200 bg-white select-none left-[15%]">
           😊
         </div>
       </>
