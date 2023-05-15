@@ -20,7 +20,7 @@ const Blog = () => {
           {blogs.map((blog) => (
             <div
               key={blog.id}
-              className="bg-white w-full md:w-[calc(100%/2-0.5rem)] xl:w-[calc(100%/3-1rem)] 2xl:w-[calc(100%/4-1.5px)] shadow-md border border-gray-100 rounded-xl overflow-hidden"
+              className="bg-white w-full md:w-[calc(100%/2-0.5rem)] xl:w-[calc(100%/3-1rem)] 2xl:w-[calc(100%/4-1.5rem)] shadow-md border border-gray-100 rounded-xl overflow-hidden"
             >
               <Image
                 src={blog.image}
