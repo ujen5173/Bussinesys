@@ -5,14 +5,18 @@ import { items } from "../constants";
 
 const Header = () => {
   return (
-    <header className="overflow-hidden w-full bg-gray-50">
-      <nav className="flex items-center  justify-between container mx-auto p-4">
+    <header className="absolute top-0 z-50 left-0 w-full bg-gray-50">
+      <nav className="flex items-center justify-between container mx-auto p-4">
         <Logo />
         <NavItems items={items} />
         <div className="flex items-center gap-4">
           <div className="hidden sm:flex items-center gap-4 justify-center">
-            <button className="block btn-secondary">Sign up</button>
-            <button className="btn-primary">Login</button>
+            <Link href="/auth/signup">
+              <button className="w-full btn-secondary">Sign up</button>
+            </Link>
+            <Link href="/auth/login">
+              <button className="w-full btn-primary">Login</button>
+            </Link>
           </div>
           <MobileNavItems items={items} />
         </div>
@@ -24,7 +28,11 @@ const Header = () => {
 export default Header;
 
 export const Logo = () => {
-  return <h1 className="text-xl font-semibold text-gray-900">Bussinesys</h1>;
+  return (
+    <Link href="/">
+      <h1 className="text-xl font-semibold text-gray-900">Bussinesys</h1>
+    </Link>
+  );
 };
 
 export const NavItems = ({ items }) => {
@@ -77,8 +85,12 @@ export const MobileNavItems = ({ items }) => {
           </ul>
         </div>
         <div className="flex items-center justify-center p-4 flex-col gap-4">
-          <button className="w-full btn-secondary">Sign up</button>
-          <button className="w-full btn-primary">Login</button>
+          <Link href="/auth/signup">
+            <button className="w-full btn-secondary">Sign up</button>
+          </Link>
+          <Link href="/auth/login">
+            <button className="w-full btn-primary">Login</button>
+          </Link>
         </div>
       </div>
     </div>

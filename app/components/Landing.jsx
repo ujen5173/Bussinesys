@@ -1,8 +1,9 @@
+import Link from "next/link";
 import React from "react";
 
 const Landing = () => {
   return (
-    <section className="relative min-h-[80vh] overflow-hidden bg-gray-50 flex items-center justify-center">
+    <section className="relative min-h-[90vh] overflow-hidden bg-gray-50 flex items-center justify-center">
       <>
         <h1 className="absolute top-[10%] text-9xl font-black text-gray-900 opacity-5 select-none -right-[21rem]">
           BUSINESS
@@ -39,7 +40,9 @@ const Landing = () => {
           </p>
 
           <div className="relative z-20 flex items-center gap-4">
-            <button className="btn-primary">Get Started</button>
+            <Link href="/contact">
+              <button className="btn-primary">Get Started</button>
+            </Link>
             <button className="btn-link">Learn more</button>
           </div>
         </div>

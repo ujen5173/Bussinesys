@@ -5,10 +5,14 @@
 .btn-primary {
   @apply bg-blue-600 hover:bg-blue-700 hover:shadow-xl shadow-blue-500 transition duration-150 text-white font-semibold text-base py-3 px-6 rounded;
 }
+.btn-oauth {
+  @apply bg-gray-100 hover:bg-gray-200 border border-gray-200 w-full transition duration-150 text-gray-900 font-semibold text-base py-3 px-6 rounded;
+}
 
 .btn-secondary {
   @apply bg-blue-200 hover:bg-blue-300 hover:shadow-xl shadow-blue-500 transition duration-150 text-blue-600 font-semibold text-base py-3 px-6 rounded;
 }
+
 .btn-link {
   @apply text-blue-600 font-semibold text-base py-2 px-6 hover:underline;
 }
@@ -30,4 +34,30 @@
 
 #checkbox:checked ~ #menu {
   transform: translateX(0);
+}
+
+.or {
+  position: relative;
+}
+
+.or::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 45%;
+  height: 1px;
+  background: #ccc;
+}
+
+.or::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 45%;
+  height: 1px;
+  background: #ccc;
 }

@@ -1,7 +1,7 @@
-export const items = ["Home", "Bussines", "Office", "Contacts"].map((e) => ({
+export const items = ["Home", "Bussines", "Office", "Contact"].map((e) => ({
   id: Math.random() * 1000 + 1,
   name: e,
-  link: `/${e.toLowerCase()}`,
+  link: `/${e === "Home" ? "".toLowerCase() : e.toLowerCase()}`,
 }));
 
 export const services = [
