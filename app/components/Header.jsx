@@ -11,10 +11,10 @@ const Header = () => {
         <NavItems items={items} />
         <div className="flex items-center gap-4">
           <div className="hidden sm:flex items-center gap-4 justify-center">
-            <Link href="/auth/signup">
+            <Link href="/auth/signup" className="block">
               <button className="w-full btn-secondary">Sign up</button>
             </Link>
-            <Link href="/auth/login">
+            <Link href="/auth/login" className="block">
               <button className="w-full btn-primary">Login</button>
             </Link>
           </div>
@@ -85,10 +85,10 @@ export const MobileNavItems = ({ items }) => {
           </ul>
         </div>
         <div className="flex items-center justify-center p-4 flex-col gap-4">
-          <Link href="/auth/signup">
+          <Link href="/auth/signup" className="w-full">
             <button className="w-full btn-secondary">Sign up</button>
           </Link>
-          <Link href="/auth/login">
+          <Link href="/auth/login" className="w-full">
             <button className="w-full btn-primary">Login</button>
           </Link>
         </div>
