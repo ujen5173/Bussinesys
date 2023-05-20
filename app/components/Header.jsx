@@ -79,7 +79,9 @@ export const MobileNavItems = ({ items }) => {
                 key={item.id}
                 className="p-4 cursor-pointer text-gray-500 hover:text-gray-800 hover:bg-gray-200 transition duration-150 font-semibold"
               >
-                <Link href={item.link}>{item.name}</Link>
+                <Link href={item.link} className="block w-full">
+                  {item.name}
+                </Link>
               </li>
             ))}
           </ul>

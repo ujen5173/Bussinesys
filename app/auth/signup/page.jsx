@@ -42,7 +42,7 @@ const page = () => {
                 placeholder="********"
               />
             </div>
-            <p className="text-sm w-7/12 mx-auto text-center text-gray-600 mb-4">
+            <p className="text-sm w-full md:w-7/12 mx-auto text-center text-gray-600 mb-4">
               By signing up, you agree to our Terms , Data Policy and Cookies
             </p>
             <button className="btn-primary w-full">Sign up </button>
