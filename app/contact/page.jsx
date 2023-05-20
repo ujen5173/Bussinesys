@@ -8,7 +8,7 @@ const page = () => {
       <section className="w-full">
         <div className="max-w-[1000px] mx-auto px-4 py-32 flex flex-col justify-center min-h-screen">
           <h1 className="text-5xl font-semibold text-gray-800">
-            Love to hear from you, <br /> Let's get in touch
+            Love to hear from you, <br /> Let&apos;s get in touch
           </h1>
           <p className="text-xl mb-10 text-gray-500 mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
